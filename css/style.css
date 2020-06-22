@@ -30,19 +30,7 @@
     width: 100%;
     padding-left: 5%;
 }
-  /*Photography section section*/
-#photography{
-    display: block;
 
-    margin-top: 15vh;
-    margin-bottom: 5vh;
-    margin-left: 0;
-    margin-right: 02%;
-    height:80vh;
-    width: 97%;
-    background-color: rgb(134, 131, 128);
-    position: absolute;
-}
 /*graphics design div section*/
 #graphicsDesign{
     display: none;
@@ -80,9 +68,15 @@
     background-color: yellow;
     position: absolute;
 }
+  /*Photography section section*/
+  #photography{
+    display: block;
+    margin-top: 20vh;
+    background-color: aliceblue;
+}
 /* Thummbnail of photo gallery at acitivity div */
 #thumbnail{
-    width: 175px;
+    width: 170px;
     height: 175px;
     border: 1px solid white ;
     filter: grayscale(100%);
@@ -97,6 +91,7 @@
 /*style of card*/
 .card{
     width: 18rem;
+    border: 2px solid white;
 }
 #card{
     height: 200px;
