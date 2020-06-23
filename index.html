@@ -32,9 +32,9 @@
     </section>
 
     <!--Make a navbar-->
-    <nav class="navbar navbar-light bg navbar-expand-md sticky-top">
+    <nav class="navbar navbar-light navbar-expand-md sticky-top ">
       <!--Make navbar brand-->
-      <a href="#" class="navbar-brand">Supreme</a>
+      <a href="#" class="navbar-brand text-white">Supreme</a>
       <!--Make navbar Responsive-->
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navMenu"><span class="navbar-toggler-icon"></span></button>
       <!--Make div for navbar buttons-->
@@ -43,23 +43,23 @@
         <ul class="navbar-nav mx-auto">
           <!--Make Home Button-->
           <li class="nav-item">
-            <a href="#carouselExampleFade" class="nav-link">Home</a>
+            <a href="#carouselExampleFade" class="nav-link text-white">Home</a>
           </li>
           <!--Make about me button-->
           <li class="nav-item">
-            <a href="#about" class="nav-link">About</a>
+            <a href="#about" class="nav-link text-white">About</a>
           </li>
           <!--Make Education button-->
           <li class="nav-item">
-            <a href="#education" class="nav-link">Education</a>
+            <a href="#education" class="nav-link text-white">Education</a>
           </li>
           <!--Make a Hobbies button-->
           <li class="nav-item">
-            <a href="#activity" class="nav-link">Activity</a>
+            <a href="#activity" class="nav-link text-white">Activity</a>
           </li>
           <!--Make a contact me button-->
           <li class="nav-item">
-            <a href="#contactMe" class="nav-link">Contact</a>
+            <a href="#contactMe" class="nav-link text-white">Contact</a>
           </li>
         </ul>  
       </div>  
@@ -96,14 +96,6 @@
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
     </section>
 
@@ -148,6 +140,7 @@
         <div class="row">
           <!--Make secondary school column-->
             <!--Make photo card of school-->
+            <div class="col">
               <div class="card m-2">
                 <img src="image/mlogo.jpg" id="card" class="card-img-top  img-fluid">
                 <div class="card-block bg-dark">
@@ -155,25 +148,29 @@
                   <p class="text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
+            </div>
+              
 
             
           
 
           <!--Make higer secondary College column-->
             
-
-            <div class="card m-2">
-              <img src="image/mlogo.jpg" id="card"  class="card-img-top  img-fluid">
-              <div class="card-block bg-dark">
-                <h3 class="card-title text-white">H.S.C</h3>
-                <p class="text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="col">
+              <div class="card m-2">
+                <img src="image/mlogo.jpg" id="card"  class="card-img-top  img-fluid">
+                <div class="card-block bg-dark">
+                  <h3 class="card-title text-white">H.S.C</h3>
+                  <p class="text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
               </div>
             </div>
+            
 
           
           <!--Make University column-->
             
-
+            <div class="col">
               <div class="card m-2">
                 <img src="image/dlogo.jpg" id="card"  class="card-img-top  img-fluid">
                 <div class="card-block bg-dark">
@@ -181,6 +178,8 @@
                   <p class="text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
+            </div>
+              
 
           </div>
         <!--Make a Hobbies Section-->
@@ -198,42 +197,72 @@
 
     <!--Make a acitivity-->
     <section class="activity bg-dark" id="activity">
-      <div class="row m-0">
+      <div class="row m-0 p-0">
         <!--Make buttons div for activity-->
-        <div id="activitybtn" class=" col-xl-2 col-md-12 col-sm-12 text-left">
+        <div id="activitybtn" class=" col-xl-2 col-md-12 col-sm-12 text-center my-auto">
           
           <!--Make Activity tag-->
-          <div><h4 class="text-white text-center mt-5 pt-5"><strong>Activities</strong></h4></div>
+          <div class="row">
+            <div class="col">
+              <h4 class="text-white text-center">
+                  <strong>Activities</strong>
+              </h4>
+            </div>
+          </div>
           
           <!--Make photography button-->
-          <div><a id="btn1" class="btn btn-lg btn-block m-1">Photography</a></div>
+          <div class="row">
+            <div class="col">
+              <a id="btn1" class="btn btn-lg btn-block ">Photography</a>
+            </div>
+          </div>
           <!--Make a graphics Design button-->
-          <div><a id="btn2" class="btn btn-lg btn-block m1">Graphics Design</a></div>
+          <div class="row">
+            <div class="col">
+              <a id="btn2" class="btn btn-lg btn-block">Graphics Design</a>
+            </div>
+          </div>
         </div>
 
 
         <!--Make a div for hobbies catagory-->
-        <div class="col-xl-10 col-md-10 col-sm-12">
+        <div class="col my-auto">
               <!--Make photography div for hobbies-->
-          <div id="photography">
+          <div id="photography" class="row">
               <!--Make a photo gallery-->
-                <h2 class="text-center mt-2">Photo Gallery</h2>
-                <!--Photos for photo gallery-->
-                <div class="row">
-                  <div class="col-md-2 col-sm-4 pr-0"><a href="image/im1.jpg"><img src="image/im1.jpg" alt="" id="thumbnail" ></a></div>
-                  <div class="col-md-2 col-sm-4 p-0"><a href="image/im2.jpg"><img src="image/im2.jpg" alt="" id="thumbnail" ></a></div>
-                  <div class="col-md-2 col-sm-4 p-0"><a href="image/im3.jpg"><img src="image/im3.jpg" alt="" id="thumbnail" ></a></div>
-                  <div class="col-md-2 col-sm-4 p-0"><a href="image/im4.jpg"><img src="image/im4.jpg" alt="" id="thumbnail" ></a></div>
-                  <div class="col-md-2 col-sm-4 p-0"><a href="image/im5.jpg"><img src="image/im5.jpg" alt="" id="thumbnail" ></a></div>
-                  <div class="col-md-2 col-sm-4 p-0"><a href="image/im6.jpg"><img src="image/im6.jpg" alt="" id="thumbnail" ></a></div>
+              <div class="row text-center">
+                <div class="col ">
+                    <h2 class="text-white" id="gallery">Photo Gallery</h2>
                 </div>
-                <div class="row">
-                  <div class="col-md-2 col-sm-4 pr-0"><a href="image/im7.jpg"><img src="image/im7.jpg" alt="" id="thumbnail"></a></div>
-                  <div class="col-md-2 col-sm-4 p-0"><a href="image/im8.jpg"><img src="image/im8.jpg" alt="" id="thumbnail"></a></div>
-                  <div class="col-md-2 col-sm-4 p-0"><a href="image/im9.jpg"><img src="image/im9.jpg" alt="" id="thumbnail" ></a></div>
-                  <div class="col-md-2 col-sm-4 p-0"><a href="image/im10.jpg"><img src="image/im10.jpg" alt="" id="thumbnail" ></a></div>
-                  <div class="col-md-2 col-sm-4 p-0"><a href="image/im12.jpg"><img src="image/im12.jpg" alt="" id="thumbnail" ></a></div>
-                  <div class="col-md-2 col-sm-4 p-0"><a href="image/im11.jpg"><img src="image/im11.jpg" alt="" id="thumbnail" ></a></div>
+              </div>
+                
+                <!--Photos for photo gallery-->
+                <div class="row m-0 p-0">
+                  <div class="col col-sm-12 col-md-4 col-xl-2 m-2"><a href="image/im1.jpg"><img src="image/im1.jpg" alt="" id="thumbnail" ></a></div>
+
+                  <div class="col col-sm-12 col-md-4 col-xl-2 m-2"><a href="image/im2.jpg"><img src="image/im2.jpg" alt="" id="thumbnail" ></a></div>
+
+                  <div class="col col-sm-12 col-md-4 col-xl-2 m-2"><a href="image/im3.jpg"><img src="image/im3.jpg" alt="" id="thumbnail" ></a></div>
+
+                  <div class="col col-sm-12 col-md-4 col-xl-2 m-2"><a mdef="image/im4.jpg"><img src="image/im4.jpg" alt="" id="thumbnail" ></a></div>
+
+                  <div class="col col-sm-12 col-md-4 col-xl-2 m-2"><a href="image/im5.jpg"><img src="image/im5.jpg" alt="" id="thumbnail" ></a></div>
+                </div>
+
+                <!--Row 2-->
+                <div class="row m-0 p-0">
+
+                  <div class="col col-sm-12 col-md-4 col-xl-2 m-2"><a href="image/im7.jpg"><img src="image/im7.jpg" alt="" id="thumbnail"></a></div>
+
+                  <div class="col col-sm-12 col-md-4 col-xl-2 m-2"><a href="image/im8.jpg"><img src="image/im8.jpg" alt="" id="thumbnail"></a></div>
+
+                  <div class="col col-sm-12 col-md-4 col-xl-2 m-2"><a href="image/im9.jpg"><img src="image/im9.jpg" alt="" id="thumbnail" ></a></div>
+
+                  <div class="col col-sm-12 col-md-4 col-xl-2 m-2"><a href="image/im10.jpg"><img src="image/im10.jpg" alt="" id="thumbnail" ></a></div>
+
+                  
+                  <div class="col col-sm-12 col-md-4 col-xl-2 m-2"><a href="image/im11.jpg"><img src="image/im11.jpg" alt="" id="thumbnail" ></a></div>
+                  
                 </div>
           </div>
           <!--Make a graphics design  div-->
